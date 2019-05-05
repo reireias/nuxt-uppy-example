@@ -32,7 +32,12 @@ module.exports = {
   /*
    ** Global CSS
    */
-  css: ['~/assets/style/app.styl'],
+  css: [
+    '~/assets/style/app.styl',
+    '@uppy/core/dist/style.css',
+    '@uppy/dashboard/dist/style.css',
+    '@uppy/webcam/dist/style.css'
+  ],
 
   /*
    ** Plugins to load before mounting the App
