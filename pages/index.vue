@@ -1,8 +1,10 @@
 <template>
   <v-layout column justify-center align-center>
     <v-flex xs12 sm8 md6>
-      <h1>Nuxt.js + uppy example</h1>
-      <v-btn id="select-files">upload</v-btn>
+      <center>
+        <h1>Nuxt.js + uppy example</h1>
+        <v-btn id="select-files" color="primary">upload</v-btn>
+      </center>
     </v-flex>
   </v-layout>
 </template>
