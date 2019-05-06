@@ -26,8 +26,8 @@ export default {
       .use(Dashboard, {
         trigger: '#select-files'
       })
-      .use(Webcam, { target: Dashboard })
-      .use(XHRUpload, { endpoint: 'https://api2.transloadit.com' })
+      .use(Webcam, { target: Dashboard }) // ウェブカメラを追加
+      .use(XHRUpload, { endpoint: 'https://api2.transloadit.com' }) // ダミーのURLへアップロード
     uppy.on('complete', result => {
       // eslint-disable-next-line no-console
       console.log(
