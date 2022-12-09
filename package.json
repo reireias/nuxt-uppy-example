@@ -18,7 +18,7 @@
     "@uppy/webcam": "^1.0.0",
     "@uppy/xhr-upload": "^1.0.0",
     "cross-env": "^5.2.0",
-    "express": "^4.16.4",
+    "express": "^4.17.3",
     "nuxt": "^2.4.0",
     "vuetify": "^1.5.5",
     "vuetify-loader": "^1.2.1"
